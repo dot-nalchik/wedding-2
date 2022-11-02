@@ -1,0 +1,368 @@
+.body {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: Source Serif Pro, sans-serif;
+  color: white;
+  background: #222221;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 20px;
+  background-image: url("../../images/gold/big1280/bigGold1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.names {
+  font-size: 35px;
+  margin: 148px 0 0 0;
+  font-weight: 400;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  margin-top: 10px;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.flex_container > h5 {
+  margin: 0 15px;
+  font-size: 35px;
+  font-weight: 400;
+
+}
+
+.main_container > hr {
+  width: 35px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.year {
+  font-size: 15px;
+  margin-top: 8px;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.restTime {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 15px;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.restTitle {
+  font-size: 15px;
+  margin-top: 134px;
+  margin-bottom: 12px;
+  font-style: italic;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.restTime > div > p {
+  margin: 0;
+}
+
+.restTime > hr {
+  margin: 0;
+  height: 40px;
+}
+
+.days {
+  font-size: 25px;
+}
+
+.time {
+  font-size: 10px;
+}
+
+/* ========================= HEADER ================*/
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+}
+
+.welcomeTitle {
+  margin-bottom: 22px;
+  margin-top: 93px;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.news {
+  font-family: Gilroy;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.welcome > h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.welcome > h4 {
+  font-family: Gilroy;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 22px;
+}
+
+.welcome > h5 {
+  margin-top: 99px;
+  font-family: Gilroy;
+  font-size: 15px;
+  padding: 15px;
+  font-style: italic;
+  font-weight: 400;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ========================= WELCOME ======================= */
+
+.plan {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  background-image: url("../../images/gold/big1280/bigGold2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.plan > h1 {
+  margin-bottom: 0;
+  padding: 0 20px 0 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.plan_flex {
+  margin-top: 24px;
+  height: 100%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.plan_flex > div {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+.plan_flex hr {
+  height: 25px;
+}
+
+.plan_flex p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.plan_flex h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+/* =========================PLACE======================= */
+
+.place {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.place > h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px
+}
+
+.place_img {
+  height: 160px;
+  width: 160px;
+  background: #fff;
+  border-radius: 100px;
+  border: 5px solid #D29632;
+  margin-bottom: 25px;
+}
+
+.place > p {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+.place > button {
+  background: transparent;
+  padding: 10px 20px;
+  border: 1px solid #F4D26D;
+  border-radius: 50px;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.place > hr {
+  margin-top: 5px;
+  width: 141px;
+}
+
+/* ===============================CONFIRM======================= */
+
+.confirm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-image: url("../../images/gold/big1280/bigGold3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.confirm > h1 {
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  background: -webkit-linear-gradient(90deg, #BA6B08 0%, #D29632 11%, #E6B954 22%, #F4D26D 33%, #FCE17C 42%, #FFE681 50%, #FEE27B 61%, #FCD56A 75%, #F8C04E 92%, #F6B53E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+form > input {
+  border: none;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid grey;
+  font-size: 10px;
+  max-width: 315px;
+  align-self: center;
+  width: 100%;
+}
+
+form > select {
+  border: none;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid grey;
+  font-size: 10px;
+  max-width: 315px;
+  align-self: center;
+  width: 100%;
+}
+
+form > button {
+  background: transparent;
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid #F4D26D;
+  height: 45px;
+  color: white;
+  border-radius: 50px;
+  font-size: 15px;
+  align-self: center;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 315px;
+  width: 100%;
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    background-image: url("../../images/gold/gold1.png");
+  }
+
+  .plan {
+    background-image: url("../../images/gold/gold2.png");
+  }
+
+  .confirm {
+    background-image: url("../../images/gold/gold3.png");
+  }
+}

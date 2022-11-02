@@ -1,0 +1,339 @@
+.body {
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: Playfair Display, sans-serif;
+  width: 100%;
+}
+
+.header {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 20px;
+  background: black;
+  background-image: url("../../images/bAndW/blackAndWhite1.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+}
+
+.abbreviation {
+  margin: 0;
+  font-weight: 400;
+  Line-height: 25px;
+  letter-spacing: 0;
+  font-size: 25px;
+}
+
+.header > hr {
+  width: 49px;
+  margin-top: 0;
+}
+
+.names {
+  font-size: 35px;
+  margin: 148px 0 0 0;
+  font-weight: 400;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.flex_container > h5 {
+  margin: 0 15px;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.main_container > hr {
+  width: 35px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.year {
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.restTime {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 15px
+}
+
+.restTitle {
+  font-size: 15px;
+  margin-top: 134px;
+  margin-bottom: 12px;
+  font-style: italic
+}
+
+.restTime > div > p {
+  margin: 0;
+}
+
+.restTime > hr {
+  height: 35px;
+}
+
+.days {
+  font-size: 25px;
+}
+
+.time {
+  font-size: 10px;
+}
+
+/* ========================= HEADER ================*/
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  background-image: url("../../images/bAndW/white.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.welcomeTitle {
+  margin-bottom: 22px;
+  margin-top: 93px;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px
+}
+
+.news {
+  font-family: Gilroy;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.welcome > h2 {
+  font-size: 30px;
+  font-style: italic;
+  margin: 0;
+  font-weight: 600;
+}
+
+.welcome > h4 {
+  font-family: Gilroy;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 22px;
+}
+
+.welcome > h5 {
+  margin-top: 99px;
+  font-family: Gilroy;
+  font-size: 15px;
+  padding: 15px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* ========================= WELCOME ======================= */
+
+.plan {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  background-image: url("../../images/bAndW/blackAndWhite2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.plan > h1 {
+  margin-bottom: 0;
+  padding: 0 20px 0 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.plan > hr {
+  width: 60%;
+}
+
+.plan_flex {
+  margin-top: 24px;
+  height: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.plan_flex > div {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+.plan_flex hr {
+  height: 25px;
+}
+
+.plan_flex p {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.plan_flex h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+/* =========================PLACE======================= */
+
+.place {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-image: url("../../images/bAndW/white.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.place > h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px
+}
+
+.place_img {
+  height: 200px;
+  width: 160px;
+  background-image: url("../../images/bAndW/blackAndWhite3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.place > p {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+.place > button {
+  background: transparent;
+  max-width: 250px;
+  margin-top: 50px;
+  text-align: center;
+  height: 45px;
+  color: black;
+  border: 1px solid black;
+  outline: none;
+  width: 70%;
+  font-size: 15px;
+  align-self: center;
+  padding: 10px;
+  cursor: pointer
+}
+
+.place > hr {
+  margin-top: 5px;
+  width: 141px;
+}
+
+/* ===============================CONFIRM======================= */
+
+.confirm {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background: black;
+  color: white;
+  width: 100%;
+}
+
+.confirm > h1 {
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+form > input {
+  border: none;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid grey;
+  font-size: 14px;
+  max-width: 315px;
+  align-self: center;
+  width: 100%;
+  color: white;
+}
+
+form > select {
+  border: none;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid grey;
+  font-size: 14px;
+  color: white;
+  max-width: 315px;
+  align-self: center;
+  width: 100%;
+}
+
+form > button {
+  background: white;
+  margin-top: 50px;
+  text-align: center;
+  height: 45px;
+  color: black;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  align-self: center;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 315px;
+  width: 100%;
+}

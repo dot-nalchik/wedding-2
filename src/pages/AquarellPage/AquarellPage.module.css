@@ -1,0 +1,341 @@
+.body {
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: Gilroy, sans-serif;
+  color: #322918;
+  background: #fff;
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-image: url("../../images/aqua/aquarell1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.abbreviation {
+  margin: 0;
+  font-weight: 400;
+  Line-height: 25px;
+  letter-spacing: 0;
+  font-size: 25px;
+  font-family: Nanum Brush Script, sans-serif;
+}
+
+.header > hr {
+  width: 49px;
+  margin-top: 0;
+}
+
+.names {
+  font-family: Nanum Brush Script;
+  font-size: 35px;
+  margin: 148px 0 0 0;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.flex_container > h5 {
+  margin: 0 15px;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.main_container > hr {
+  width: 35px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.year {
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.restTime {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.restTitle {
+  font-size: 15px;
+  margin-top: 134px;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+.restTime > div > p {
+  margin: 0;
+  font-family: Nanum Brush Script, sans-serif;
+}
+
+.days {
+  font-size: 25px;
+}
+
+.time {
+  font-size: 10px;
+}
+
+/* ========================= HEADER ================*/
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  background-image: url("../../images/aqua/aquarell2.png");
+  background-repeat: no-repeat;
+  background-position-y: 250px;
+  background-position-x: right;
+  max-width: 415px;
+}
+
+.welcomeTitle {
+  margin-bottom: 22px;
+  margin-top: 93px;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px
+}
+
+.news {
+  font-family: Gilroy;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.welcome > h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+}
+
+.welcome > h4 {
+  font-family: Gilroy;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 22px;
+}
+
+.welcome > h5 {
+  margin-top: 99px;
+  font-family: Gilroy;
+  font-size: 15px;
+  padding: 15px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* ========================= WELCOME ======================= */
+
+.plan {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+  background-image: url("../../images/aqua/aquarell3.png");
+  background-repeat: no-repeat;
+  background-position-y: 230px;
+  background-position-x: left;
+  max-width: 415px;
+}
+
+.plan > h1 {
+  margin-bottom: 0;
+  padding: 0 20px 0 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.plan_flex {
+  margin-top: 24px;
+  gap: 25px;
+  height: 100%;
+  margin-bottom: 175px
+}
+
+.plan_flex > div {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 5px;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+.plan_flex hr {
+  height: 25px;
+  align-items: center;
+  transform: rotate(15deg);
+  margin-left: 15px;
+  margin-right: 6px
+}
+
+.plan_flex p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 35px;
+  font-style: italic;
+  font-family: Nanum Brush Script, sans-serif;
+}
+
+.plan_flex h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  align-self: end;
+}
+
+/* =========================PLACE======================= */
+
+.place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-image: url("../../images/aqua/aquarell4.png");
+  background-repeat: no-repeat;
+  background-position-y: 230px;
+  background-position-x: center;
+  max-width: 415px;
+}
+
+.place > h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px
+}
+
+.place_img {
+  height: 180px;
+  width: 180px;
+  background: #f2f2f2;
+  border-radius: 50%;
+}
+
+.place > p {
+  font-size: 15px;
+  text-align: center;
+  font-style: italic;
+}
+
+.place > button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-top: 45px;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.place > hr {
+  margin-top: 5px;
+  width: 141px;
+}
+
+/* ===============================CONFIRM======================= */
+
+.confirm {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-image: url("../../images/aqua/aquarell5.png");
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: left;
+  max-width: 415px;
+}
+
+.confirm > h1 {
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+form > input {
+  border: 1px solid grey;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid grey;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-radius: 50px;
+}
+
+form > select {
+  border: 1px solid grey;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid grey;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-radius: 50px;
+}
+
+form > button {
+  background: transparent;
+  outline: none;
+  margin-top: 50px;
+  border: none;
+  text-align: center;
+  width: 70%;
+  font-size: 20px;
+  align-self: center;
+  padding: 10px;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
