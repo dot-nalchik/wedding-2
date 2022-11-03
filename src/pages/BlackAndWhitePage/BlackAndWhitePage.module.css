@@ -119,8 +119,8 @@
   margin-top: 93px;
   font-style: italic;
   font-size: 30px;
-  font-weight: 400;
-  line-height: 30px
+  font-weight: 600;
+  line-height: 30px;
 }
 
 .news {
@@ -286,6 +286,8 @@
   text-align: center;
   font-weight: 400;
   line-height: 30px;
+  max-width: 315px;
+  align-self: center;
 }
 
 .bw_form {
