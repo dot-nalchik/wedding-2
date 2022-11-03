@@ -56,7 +56,7 @@ const BlackAndWhitePage = () => {
           </div>
         </section>
         <section className={styles.welcome}>
-          <h1 className={styles.welcomeTitle}>Дорогие друзья и родный!</h1>
+          <h1 className={styles.welcomeTitle}>Дорогие друзья и родные!</h1>
           <p className={styles.news}>Вы оказались здесь, а значит мы спешим сообщить вам важную новость!</p>
           <h2>Мы женимся!</h2>
           <h4>Мы очень хотим разделить с вами этот счастливый праздник.</h4>
@@ -99,7 +99,8 @@ const BlackAndWhitePage = () => {
         </section>
         <section className={styles.confirm}>
           <h1><i>Подтвердите, пожалуйста, ваше присутсвие</i></h1>
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form onSubmit={handleSubmit(onSubmit)}
+          className={styles.bw_form}>
             <input
                 {...register("name", {required: true, minLength: 10})}
                 className={clsx(errors.name)}

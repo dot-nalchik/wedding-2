@@ -297,7 +297,7 @@
   align-self: center;
 }
 
-form {
+.modern_form {
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -305,7 +305,7 @@ form {
   align-items: center;
 }
 
-form > input {
+.modern_form > input {
   width: 100%;
   max-width: 315px;
   border: none;
@@ -317,7 +317,7 @@ form > input {
   font-size: 15px;
 }
 
-form > select {
+.modern_form > select {
   width: 100%;
   max-width: 315px;
   border: none;
@@ -329,7 +329,7 @@ form > select {
   font-size: 15px;
 }
 
-form > button {
+.modern_form > button {
   background: transparent;
   outline: none;
   margin-top: 50px;

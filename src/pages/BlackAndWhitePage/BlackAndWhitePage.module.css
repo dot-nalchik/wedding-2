@@ -288,13 +288,13 @@
   line-height: 30px;
 }
 
-form {
+.bw_form {
   display: flex;
   flex-direction: column;
   gap: 22px;
 }
 
-form > input {
+.bw_form > input {
   border: none;
   background: transparent;
   outline: none;
@@ -308,7 +308,7 @@ form > input {
   color: white;
 }
 
-form > select {
+.bw_form > select {
   border: none;
   background: transparent;
   outline: none;
@@ -322,7 +322,7 @@ form > select {
   width: 100%;
 }
 
-form > button {
+.bw_form > button {
   background: white;
   margin-top: 50px;
   text-align: center;

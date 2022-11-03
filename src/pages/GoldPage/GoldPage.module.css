@@ -302,7 +302,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-form {
+.gold_form {
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -311,7 +311,7 @@ form {
   -webkit-text-fill-color: transparent;
 }
 
-form > input {
+.gold_form > input {
   border: none;
   background: transparent;
   outline: none;
@@ -324,7 +324,7 @@ form > input {
   width: 100%;
 }
 
-form > select {
+.gold_form > select {
   border: none;
   background: transparent;
   outline: none;
@@ -337,7 +337,7 @@ form > select {
   width: 100%;
 }
 
-form > button {
+.gold_form > button {
   background: transparent;
   margin-top: 50px;
   text-align: center;

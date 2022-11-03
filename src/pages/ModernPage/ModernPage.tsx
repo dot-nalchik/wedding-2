@@ -55,7 +55,7 @@ const ClassicPage = () => {
           </div>
         </section>
         <section className={styles.welcome}>
-          <h1 className={styles.welcomeTitle}>Дорогие друзья и родный!</h1>
+          <h1 className={styles.welcomeTitle}>Дорогие друзья и родные!</h1>
           <p className={styles.news}>Вы оказались здесь, а значит мы спешим сообщить вам важную новость!</p>
           <h2>Мы женимся!</h2>
           <h4>Мы очень хотим разделить с вами этот счастливый праздник.</h4>
@@ -96,7 +96,8 @@ const ClassicPage = () => {
         <section className={styles.confirm}>
           <h1 className={styles.abbreviation}>A&A</h1>
           <h1>Подтвердите, пожалуйста, ваше присутсвие</h1>
-          <form onSubmit={handleSubmit(onSubmit)}>
+          <form onSubmit={handleSubmit(onSubmit)}
+          className={styles.modern_form}>
             <input
                 {...register("name", {required: true, minLength: 10})}
                 className={clsx(errors.name)}

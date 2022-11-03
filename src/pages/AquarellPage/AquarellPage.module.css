@@ -293,13 +293,13 @@
   line-height: 30px;
 }
 
-form {
+.aqua_form {
   display: flex;
   flex-direction: column;
   gap: 22px;
 }
 
-form > input {
+.aqua_form > input {
   border: 1px solid grey;
   background: transparent;
   outline: none;
@@ -311,7 +311,7 @@ form > input {
   border-radius: 50px;
 }
 
-form > select {
+.aqua_form > select {
   border: 1px solid grey;
   background: transparent;
   outline: none;
@@ -323,7 +323,7 @@ form > select {
   border-radius: 50px;
 }
 
-form > button {
+.aqua_form > button {
   background: transparent;
   outline: none;
   margin-top: 50px;
