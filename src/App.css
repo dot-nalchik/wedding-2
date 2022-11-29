@@ -9,3 +9,39 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+.selector_box {
+  max-width: 1920px;
+  width: 99%;
+  background: #2E4152;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 102px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 22px;
+  color: white;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.selectTheme {
+  display: flex;
+  gap:6px;
+}
+
+.selectTheme > button {
+  background: #FFFFFF;
+  border: 1px solid #BFE1DA;
+  border-radius: 40px;
+  align-items: flex-start;
+  padding: 4px 12px;
+  gap: 10px;
+  color: #2E4152;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  cursor: pointer;
+}
