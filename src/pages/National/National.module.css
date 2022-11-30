@@ -1,0 +1,416 @@
+.body {
+  max-width: 1920px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  font-family: Source Serif Pro, sans-serif;
+  color: white;
+  background: #1C321F;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 20px;
+  background-image: url("../../images/national/Vector.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  color: #203824;
+  height: 100vh;
+}
+
+.names {
+  font-size: 35px;
+  margin: 1% 0 0 0;
+  font-weight: 400;
+
+}
+
+.flex_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  margin-top: 10px;
+
+}
+
+.flex_container > h5 {
+  margin: 0 15px;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.main_container > hr {
+  width: 35px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.year {
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.restTime {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.restTitle {
+  font-size: 15px;
+  margin-top: 134px;
+  margin-bottom: 12px;
+  font-style: italic;
+}
+
+.restTime > div > p {
+  margin: 0;
+}
+
+.restTime > hr {
+  margin: 0;
+  height: 40px;
+}
+
+.days {
+  font-size: 25px;
+}
+
+.time {
+  font-size: 10px;
+}
+
+/* ========================= HEADER ================*/
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+}
+
+.welcomeTitle {
+  margin-bottom: 22px;
+  margin-top: 93px;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 100%;
+  max-width: 270px;
+  padding: 25px;
+  color: #EFB113;
+}
+
+.tillStart_text {
+  color: #EFB113 !important;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.news {
+  font-family: Gilroy;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.welcome > h2 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0;
+
+}
+
+.welcome > h4 {
+  font-family: Gilroy;
+  font-size: 14px;
+  padding: 5px;
+  font-weight: 400;
+  margin-top: 22px;
+}
+
+.welcome > h5 {
+  margin-top: 99px;
+  font-family: Gilroy;
+  font-size: 15px;
+  padding: 15px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.welcome > p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 145%;
+}
+
+.tillStart_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: -0.07em;
+  gap: 15px;
+}
+
+.tillStart_box > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.tillStart_box > div h4 {
+  margin: 0;
+}
+
+.tillStart_box > div p {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+}
+
+[alt="img1"] {
+  margin-bottom: 75px;
+}
+
+/* ========================= WELCOME ======================= */
+
+.plan {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 30px;
+}
+
+.plan > h1 {
+  margin-bottom: 0;
+  padding: 0 20px 0 20px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  color: #EFB113;
+  text-align: center;
+  letter-spacing: -0.01em;
+}
+
+.plan_flex {
+  margin-top: 24px;
+  height: 100%;
+  margin-bottom: 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px
+}
+
+.plan_flex > div {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+.plan_flex img {
+  width: 40px;
+  align-self: center;
+  margin-top: 15px;
+}
+
+.plan_flex p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 100%;
+  margin-top: 15px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.plan_flex h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+/* =========================PLACE======================= */
+
+.place {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+.place > h1 {
+  max-width: 270px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 100%;
+  color: #EFB113;
+}
+
+.place_img {
+  height: 160px;
+  width: 160px;
+  background: #fff;
+  border-radius: 100px;
+  border: 5px solid #D29632;
+  margin-bottom: 25px;
+}
+
+.place > p {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 145%;
+  letter-spacing: 0.01em;
+  max-width: 230px;
+  margin-top: 35px;
+}
+
+.place > button {
+  background: transparent;
+  padding: 10px 20px;
+  border: none;
+  border-bottom: 1px solid #F4D26D;
+  margin-top: 15px;
+  outline: none;
+  font-size: 15px;
+  color: #EFB113;
+}
+
+.place > hr {
+  margin-top: 5px;
+  width: 141px;
+}
+
+/* ===============================CONFIRM======================= */
+
+.confirm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.confirm > h1 {
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+  color: #EFB113;
+}
+
+.gold_form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  position: relative;
+}
+
+.gold_form > input {
+  border: none;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid grey;
+  font-size: 10px;
+  max-width: 315px;
+  align-self: center;
+  width: 100%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 10px */
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gold_form > select {
+  border: none;
+  background: transparent;
+  outline: none;
+  text-align: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #EFB113;;
+  font-size: 10px;
+  max-width: 315px;
+  align-self: center;
+  width: 100%;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 100%;
+  /* identical to box height, or 10px */
+
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.gold_form > button {
+  background: transparent;
+  margin-top: 50px;
+  text-align: center;
+  height: 45px;
+  border: none;
+  border-radius: 50px;
+  font-weight: 500;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 15px;
+  align-self: center;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 315px;
+  width: 100%;
+  z-index: 4;
+  color: #020202;
+}
+
+[alt="submit_img"] {
+  position: absolute;
+  top: 300px;
+  width: 300px;
+  left: 0;
+}
+
+
+@media screen and (max-width: 360px) {
+
+}

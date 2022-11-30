@@ -4,6 +4,7 @@ import {pages} from './helpers';
 import {Forms} from './pages';
 import {EThemes} from './store/models/main';
 import logo from "./images/Group1.svg"
+import National from "./pages/National/National";
 
 function App() {
   const [theme, setTheme] = useState(EThemes.Classic);
@@ -16,18 +17,18 @@ function App() {
 
   return (
       <div className="App">
-        <div className="selector_box">
-          <img src={logo} alt="logo"/>
-          <div className="selectTheme">
-            <button>Классика</button>
-            <button>ЧБ</button>
-            <button>Золото</button>
-            <button>Национальный</button>
-            <button>Модерн</button>
-            <button>Акварель</button>
-          </div>
-          <a className="mobilePhone" href="tel:+79999999999">+7999 999-99-99</a>
-        </div>
+        {/*<div className="selector_box">*/}
+        {/*  <img src={logo} alt="logo"/>*/}
+        {/*  <div className="selectTheme">*/}
+        {/*    <button >Классика</button>*/}
+        {/*    <button>ЧБ</button>*/}
+        {/*    <button>Золото</button>*/}
+        {/*    <button>Национальный</button>*/}
+        {/*    <button>Модерн</button>*/}
+        {/*    <button>Акварель</button>*/}
+        {/*  </div>*/}
+        {/*  <a className="mobilePhone" href="tel:+79999999999">+7999 999-99-99</a>*/}
+        {/*</div>*/}
         {/*<select onChange={handleChangeTheme} value={theme}>*/}
         {/*  {pages.map((page) => (*/}
         {/*    <option*/}
@@ -39,7 +40,8 @@ function App() {
         {/*    </option>*/}
         {/*  ))}*/}
         {/*</select>*/}
-        <Form/>
+        <National />
+        {/*<Form/>*/}
       </div>
   );
 }
