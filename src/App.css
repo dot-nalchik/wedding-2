@@ -23,6 +23,7 @@
   color: white;
   align-items: center;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .selectTheme {
@@ -44,4 +45,33 @@
   font-size: 14px;
   line-height: 140%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 850px){
+  .selector_box {
+    position: relative;
+    margin-bottom: 45px;
+  }
+
+  .selectTheme {
+    position: absolute;
+    top: 71px;
+    margin: auto;
+    flex-wrap: wrap;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 566px){
+  .selector_box {
+    position: relative;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 340px){
+  .selector_box {
+    position: relative;
+    margin-bottom: 114px;
+  }
 }

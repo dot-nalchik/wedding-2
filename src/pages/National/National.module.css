@@ -330,6 +330,9 @@
   font-weight: 400;
   line-height: 30px;
   color: #EFB113;
+  max-width: 270px;
+  margin: 0 auto;
+  margin-bottom: 45px;
 }
 
 .gold_form {
@@ -404,13 +407,19 @@
 }
 
 [alt="submit_img"] {
-  position: absolute;
-  top: 300px;
   width: 300px;
-  left: 0;
+  align-self: center;
+  top: 300px;
+  position: absolute;
+  box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 360px) {
+  [alt="submit_img"] {
+    position: absolute;
+    width: 250px;
+    margin: 0 auto;
+    top: 308px;
+  }
 
 }
