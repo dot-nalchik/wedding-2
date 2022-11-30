@@ -6,6 +6,7 @@ export enum EThemes {
   Gold = 'gold',
   BlackAndWhite = 'blackAndWhite',
   Modern = 'modern',
+  National = "national"
 }
 
 export type MainState = Record<EThemes, boolean>
@@ -46,6 +47,7 @@ const initialState: MainState = {
   gold: false,
   blackAndWhite: false,
   modern: false,
+  national: false,
 }
 
 export const main = createSlice({

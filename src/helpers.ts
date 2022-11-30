@@ -24,4 +24,8 @@ export const pages: {
     name: 'Aquarell',
     value: EThemes.Aquarell,
   },
+  {
+    name: 'National',
+    value: EThemes.National,
+  },
 ];

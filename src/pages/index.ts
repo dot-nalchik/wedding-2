@@ -5,6 +5,7 @@ import BlackAndWhitePage from './BlackAndWhitePage/BlackAndWhitePage';
 import ClassicPage from './ClassicPage/ClassicPage';
 import GoldPage from './GoldPage/GoldPage';
 import ModernPage from './ModernPage/ModernPage';
+import National from "./National/National";
 
 export const Forms: Record<EThemes, MemoExoticComponent<() => ReactElement>> = {
   [EThemes.Classic]: ClassicPage,
@@ -12,4 +13,5 @@ export const Forms: Record<EThemes, MemoExoticComponent<() => ReactElement>> = {
   [EThemes.BlackAndWhite]: BlackAndWhitePage,
   [EThemes.Gold]: GoldPage,
   [EThemes.Modern]: ModernPage,
+  [EThemes.National]: National,
 }

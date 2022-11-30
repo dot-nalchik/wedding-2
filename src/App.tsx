@@ -15,20 +15,44 @@ function App() {
     setTheme(event.target.value as EThemes)
   }
 
+  function openClassic() {
+    setTheme(EThemes.Classic)
+  }
+
+  function openAquarell() {
+    setTheme(EThemes.Aquarell)
+  }
+
+  function openGold() {
+    setTheme(EThemes.Gold)
+  }
+
+  function openBlackAndWhite() {
+    setTheme(EThemes.BlackAndWhite)
+  }
+
+  function openModern() {
+    setTheme(EThemes.Modern)
+  }
+
+  function openNational() {
+    setTheme(EThemes.National)
+  }
+
   return (
       <div className="App">
-        {/*<div className="selector_box">*/}
-        {/*  <img src={logo} alt="logo"/>*/}
-        {/*  <div className="selectTheme">*/}
-        {/*    <button >Классика</button>*/}
-        {/*    <button>ЧБ</button>*/}
-        {/*    <button>Золото</button>*/}
-        {/*    <button>Национальный</button>*/}
-        {/*    <button>Модерн</button>*/}
-        {/*    <button>Акварель</button>*/}
-        {/*  </div>*/}
-        {/*  <a className="mobilePhone" href="tel:+79999999999">+7999 999-99-99</a>*/}
-        {/*</div>*/}
+        <div className="selector_box">
+          <img src={logo} alt="logo"/>
+          <div className="selectTheme">
+            <button onClick={openClassic}>Классика</button>
+            <button onClick={openBlackAndWhite}>ЧБ</button>
+            <button onClick={openGold}>Золото</button>
+            <button onClick={openNational}>Национальный</button>
+            <button onClick={openModern}>Модерн</button>
+            <button onClick={openAquarell}>Акварель</button>
+          </div>
+          <a className="mobilePhone" href="tel:+79999999999">+7999 999-99-99</a>
+        </div>
         {/*<select onChange={handleChangeTheme} value={theme}>*/}
         {/*  {pages.map((page) => (*/}
         {/*    <option*/}
@@ -40,8 +64,7 @@ function App() {
         {/*    </option>*/}
         {/*  ))}*/}
         {/*</select>*/}
-        <National />
-        {/*<Form/>*/}
+        <Form/>
       </div>
   );
 }
