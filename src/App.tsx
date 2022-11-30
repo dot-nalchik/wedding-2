@@ -51,7 +51,7 @@ function App() {
             <button onClick={openModern}>Модерн</button>
             <button onClick={openAquarell}>Акварель</button>
           </div>
-          <a className="mobilePhone" href="tel:+79999999999">+7999 999-99-99</a>
+          <a className="mobilePhone" href="tel:+79604242408">+7960 424 24 08</a>
         </div>
         {/*<select onChange={handleChangeTheme} value={theme}>*/}
         {/*  {pages.map((page) => (*/}
